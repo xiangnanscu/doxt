@@ -19,7 +19,7 @@ import type { UserOptionsInternal } from './types';
 import { addChild, newNonTextNode } from './reportUtils';
 
 const DEBUG = process.env.DEBUG_DOCX_TEMPLATES;
-const DEFAULT_CMD_DELIMITER = '+++';
+const DEFAULT_CMD_DELIMITER = '|';
 const DEFAULT_LITERAL_XML_DELIMITER = '||';
 
 const log: any = DEBUG ? require('./debug').mainStory : null;
