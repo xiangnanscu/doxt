@@ -1,7 +1,11 @@
+# This is a fork
+This fork is for a simple and compact `INS` syntax which you can omit `=` or `INS`. For example: from `+++=foo+++` to `|foo|`.
+
+The source code and building tools is too complicated for me to handle. So I just copied the publish version and made some changes.
+
 # Docx-templates [![Build Status](https://travis-ci.org/guigrpa/docx-templates.svg)](https://travis-ci.org/guigrpa/docx-templates) [![Coverage Status](https://coveralls.io/repos/github/guigrpa/docx-templates/badge.svg?branch=master)](https://coveralls.io/github/guigrpa/docx-templates?branch=master) [![npm version](https://img.shields.io/npm/v/docx-templates.svg)](https://www.npmjs.com/package/docx-templates)
 
 Template-based docx report creation for both Node and the browser. ([See the blog post](http://guigrpa.github.io/2017/01/01/word-docs-the-relay-way/)).
-
 
 ## Why?
 
