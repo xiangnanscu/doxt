@@ -508,6 +508,8 @@ const getCommand = (ctx: Context): string => {
     cmd = `INS ${cmd.slice(1).trim()}`;
   } else if (cmd[0] === '!') {
     cmd = `EXEC ${cmd.slice(1).trim()}`;
+  } else if (/^[a-z$`'"]/.test(cmd)) {
+    cmd = `INS ${cmd.trim()}`;
   }
   ctx.cmd = '';
   return cmd.trim();
