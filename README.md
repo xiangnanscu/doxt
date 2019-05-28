@@ -1,5 +1,16 @@
 # This is a fork
 This fork is for a simple and compact `INS` syntax which you can omit `=` or `INS`. For example: from `+++=foo+++` to `|foo|`.
+Also, you can define `cmdDelimiter` as an Array containing start and end delimiter. For example:
+```
+createReport({
+  // ...
+  cmdDelimiter: ['{','}'],
+})
+```
+then you can use this form in the docx file:
+```
+{foo}
+```
 
 The source code and building tools is too complicated for me to handle. So I just copied the publish version and made some changes.
 
